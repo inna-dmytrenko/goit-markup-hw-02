@@ -1,11 +1,4 @@
-ul 
-  {
-    list-style: none;
-  }
-.adrress 
-  {
-    font-style: normal;
-  }
+
 .visually-hidden 
   {
     position: absolute;
@@ -20,28 +13,14 @@ ul
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
-a 
+ul 
   {
-   text-decoration: none;
+    list-style: none;
   }
-body 
-  {
-    font-family: 'Roboto'; sans-serif;
-    color: #212121;
-  }
-.link
-  {
-    font-family: 'Raleway'; sans-serif; 
-  }
-.nav__items
-  {
-    font-family: Roboto'; sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.143;
-    letter-spacing: 0.02em;
-  }
-.nav__item 
+
+    /* Header */
+
+.nav__item a
   {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -49,23 +28,28 @@ body
     line-height: 1.143;
     letter-spacing: 0.02em;
     color: #212121;
-  }
-.nav__item:hover, 
-.nav__item:focus
-  {
-    color: #2196F3;
-  }
-
-.header__tel 
-  {
+  } 
+.nav__item a:hover,
+.nav__item a:focus,
+.header__mail a:hover,
+.header__mail a:focus,
+.header__tel a:hover,
+.header__tel a:focus
+    {
+        color: #2196F3;
+    }
+   
+    /* hero */
+.hero__title
+{
     font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.143;
-    letter-spacing: 0.02em;
-    color: #757575;
-
-  }
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    /* color: #FFFFFF; */
+}
 
 .modal__btn
   {
@@ -77,17 +61,17 @@ body
     /* color: #FFFFFF; */
   }
 
-.hero__title 
+.address a 
   {
     font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.364;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    /* color: #FFFFFF; */
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: #757575;
   }
-.features__subtitle 
+  /* Features */
+.features__subtitl
   {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -98,14 +82,14 @@ body
     color: #212121;
   }
 
-.features__desc 
+.features__desc
   {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: #757575; 
   }
-
+  /* Work-examples */
 
