@@ -39,6 +39,7 @@
     }
     a{
       text-decoration:none;
+      font-family: 'Roboto';
     }
         /* Header */
 
@@ -51,11 +52,11 @@
     } 
     .nav__item a:hover,
     .nav__item a:focus,
-    .nav__item a:active,
     .header__mail a:hover,
     .header__mail a:focus,
     .header__tel a:hover,
-    .header__tel a:focus {
+    .header__tel a:focus,
+    .nav__item a:active {
       color: #2196F3;
     }
 
