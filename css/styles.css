@@ -34,12 +34,10 @@
       font-size: 26px;
       line-height: 1.193;
       letter-spacing: 0.03em;
-    }
-    .link-blue {
-      color: #2196F3;
-    }
-    .link-black {
       color: #000000;
+    }
+    .colortext {
+      color: #2196F3;
     }
     .link-white {
       /* color: #FFFFFF; */
@@ -96,7 +94,7 @@
       color: #757575;
     }
     /* ------------Features------------ */
-    .features__subtitl {
+    .features__subtitle {
       font-family: 'Roboto', sans-serif;
       font-weight: 700;
       font-size: 14px;
