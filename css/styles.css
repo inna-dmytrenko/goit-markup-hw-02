@@ -12,6 +12,7 @@
       a {
         text-decoration: none;
         font-family: 'Roboto', sans-serif;
+        color: #212121;
       }
     .visually-hidden {
       position: absolute;
@@ -34,7 +35,6 @@
       font-size: 26px;
       line-height: 1.193;
       letter-spacing: 0.03em;
-      color: #000000;
     }
     .colortext {
       color: #2196F3;
@@ -94,7 +94,7 @@
       color: #757575;
     }
     /* ------------Features------------ */
-    .features__subtitle {
+    .features__subtitl {
       font-family: 'Roboto', sans-serif;
       font-weight: 700;
       font-size: 14px;
