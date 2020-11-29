@@ -21,8 +21,28 @@
     }
     .container {
       display: flex;
-      color: red;
+      background: red;
     } 
+
+
+      /* .header {
+    display: flex;
+    align-items: center;
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+  
+  header .address {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav__items {
+    display: flex;
+    align-items: center;
+  } */
+
 
     .visually-hidden {
       position: absolute;
@@ -47,7 +67,8 @@
       color: #212121;
     }
     ul {
-      list-style: none;}
+      list-style: none;
+    }
     .colortext {
       color: #2196F3;
     }
