@@ -385,6 +385,8 @@
     
     .title {
       padding: 20px 24px;
+      border: 0px solid #000;
+
       /* outline: 2px solid #1278d1; */
     }
     .menu-catalog .container {
