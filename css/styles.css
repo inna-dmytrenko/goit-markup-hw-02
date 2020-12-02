@@ -54,6 +54,10 @@
     .accent {
       color: #2196F3
     }
+    .header .address a:hover,
+    .header .address a:focus {
+      color: #2196F3;
+    }
     .link:hover,
     .link:focus {
       color: #2196F3;
@@ -119,7 +123,7 @@
       align-items: center;
       padding-top: 32px;
       padding-bottom: 32px;
-      border-bottom: 1px solid #000; 
+      border-bottom: 1px solid  #EEEEEE; 
       /* margin-left: auto; */
       /* outline: 1px solid tomato; */
       justify-content: space-between;
@@ -189,10 +193,14 @@
       letter-spacing: 0.03em;
       color: #757575; 
     }
+    .features__desc {
+      padding-right: 20px;
+      /* outline: 1px solid rgb(5, 1, 0); */
+    }
     .features .container{
       padding-top: 100px;
       padding-bottom: 100px;
-      background-color: rgb(149, 235, 137);
+      /* background-color: rgb(149, 235, 137); */
     }
     .features__items {
       display: flex;
@@ -203,10 +211,7 @@
     .features__subtitle {
       margin-bottom: 10px;
     }
-    .features__desc {
-      padding-right: 20px;
-      /* outline: 1px solid rgb(5, 1, 0); */
-    }
+    
     /* -----------------Work-examples ----------------*/
   
     .work-examples__title,
@@ -216,13 +221,13 @@
       font-size: 36px;
       line-height: 1.167;
       letter-spacing: 0.03em;
-      color: #212121;
+      /* color: #212121; */
     }
   
     .work-examples .container {
       text-align: center; 
       padding-bottom: 94px;
-      background-color: rgb(153, 10, 10);
+      /* background-color: rgb(153, 10, 10); */
 
     }
     .work-examples__items {
@@ -246,7 +251,7 @@
       font-size: 16px;
       line-height: 1.188;
       letter-spacing: 0.03em;
-      color: #212121;
+      /* color: #212121; */
     }
     .team__item:not(:last-child) {
       margin-right: 30px;
@@ -268,16 +273,22 @@
       justify-content: center;
     
     }
+    .team__item {
+      background: #FFFFFF;
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+      border-radius: 0px 0px 4px 4px;
+      padding-bottom: 30px;
+    }
     .team .container {
       padding-top: 94px;
       padding-bottom: 94px;
-      background-color: rgb(40, 201, 19);
+      /* background-color: rgb(40, 201, 19); */
     }
   
     .team__title {
       text-align: center;
       margin-bottom: 50px;
-      background-color: rgb(139, 111, 204);
+      /* background-color: rgb(139, 111, 204); */
     }
     /*    ---------------------------------------- Footer */
       .footer .address {
@@ -289,15 +300,16 @@
        /* color: rgba(255, 255, 255, 0.6);*/
       }
     .footer__adrress a{
-     color: #FFFFFF; 
+     /* color: #FFFFFF;  */
     }
     .footer .container{
-      background: #188CE8;
+      /* background: #188CE8; */
       padding-bottom: 60px;
       padding-top: 60px;
     }
     .footer .logo {
       margin-bottom: 20px;
+      /* color: #ffffff; */
     }
     .footer .address {
       display: flex;
@@ -318,7 +330,6 @@
     }
     .catalog__btn {
       min-width: 73px;
-      box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
       border: none;
       border-radius: 4px;
       text-align: center;
@@ -356,7 +367,7 @@
       display: flex;
       justify-content: center; 
       margin-bottom: 50px;
-      outline: 1px solid #e88718;
+      /* outline: 1px solid #e88718; */
     }
     .catalog__items {
       display: flex;
@@ -368,12 +379,6 @@
     .menu-catalog__item:not(:last-child) {
       margin-right: 8px;
     }
-    
-    .menu-catalog__items {
-      
-      background-color: rgb(23, 62, 235);
-    }
-  
     .catalog__item {
       display: flex;
       margin-top: 30px;
@@ -385,13 +390,12 @@
     
     .title {
       padding: 20px 24px;
-      border: 0px solid #000;
-
+      border: 1px solid #EEEEEE;
       /* outline: 2px solid #1278d1; */
     }
     .menu-catalog .container {
       margin-bottom: 94px;
       margin-top: 94px;
-      background-color: rgb(75, 104, 82);
+      /* background-color: rgb(75, 104, 82); */
     }
  
