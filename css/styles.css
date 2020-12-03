@@ -39,7 +39,6 @@
     }
     
     body {
-      /* font-family: 'Roboto', sans-serif; */
       color: #212121;
     }
     a {
@@ -118,14 +117,16 @@
       display: flex;
       /* outline: 1px solid rgb(37, 173, 25); */
     }
+    .header {
+      border-bottom: 1px solid  #EEEEEE; 
+      padding-top: 32px;
+      padding-bottom: 32px;
+      /* background-color: rgb(229, 151, 151); */
+        /* outline: 1px solid tomato; */
+    }
     .header .container {
       display: flex;
       align-items: center;
-      padding-top: 32px;
-      padding-bottom: 32px;
-      border-bottom: 1px solid  #EEEEEE; 
-      /* margin-left: auto; */
-      /* outline: 1px solid tomato; */
       justify-content: space-between;
     }
   
@@ -138,7 +139,7 @@
       line-height: 1.364;
       letter-spacing: 0.06em;
       text-transform: uppercase;
-      /* color: #FFFFFF; */
+      color: #FFFFFF;
       /* outline: 1px solid rgb(197, 94, 211); */
     }
     .hero__title {
@@ -146,6 +147,7 @@
       width: 700px;
       margin-left: auto;
       margin-right: auto;
+      /* outline: 1px solid rgb(197, 94, 211); */
     }
   
     .modal__btn {
@@ -166,10 +168,14 @@
       cursor: pointer;
       padding: 10px 32px;
     }
-    .hero .container{
-      text-align: center;
+    .hero {
       padding-top: 200px;
       padding-bottom: 200px;
+      background: #2F303A;
+    }
+    .hero .container{
+      text-align: center;
+      
       /* background: #a0cff7; */
   
     }
@@ -187,7 +193,7 @@
   
     .features__desc {
       font-family: 'Roboto', sans-serif;
-      font-weight: 500;
+      font-weight: 400;
       font-size: 14px;
       line-height: 1.714;
       letter-spacing: 0.03em;
@@ -209,9 +215,21 @@
       margin-right: 30px;
     }
     .features__subtitle {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1.143;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: #212121;
+
       margin-bottom: 10px;
     }
-    
+    .features {
+      padding-top: 94px;
+      padding-bottom: 94px;
+      /* background-color: rgb(231, 197, 197); */
+    }
     /* -----------------Work-examples ----------------*/
   
     .work-examples__title,
@@ -223,11 +241,14 @@
       letter-spacing: 0.03em;
       /* color: #212121; */
     }
+    .work-examples {
+      padding-bottom: 94px;
+      /* background-color: rgb(153, 10, 10); */
+    }
   
     .work-examples .container {
       text-align: center; 
-      padding-bottom: 94px;
-      /* background-color: rgb(153, 10, 10); */
+      
 
     }
     .work-examples__items {
@@ -262,6 +283,7 @@
     }
     .team__desc {
       font-family: 'Roboto', sans-serif;
+      font-weight: 400;
       font-size: 16px;
       line-height: 1.188;
       letter-spacing: 0.03em;
@@ -279,7 +301,7 @@
       border-radius: 0px 0px 4px 4px;
       padding-bottom: 30px;
     }
-    .team .container {
+    .team {
       padding-top: 94px;
       padding-bottom: 94px;
       /* background-color: rgb(40, 201, 19); */
@@ -291,32 +313,38 @@
       /* background-color: rgb(139, 111, 204); */
     }
     /*    ---------------------------------------- Footer */
-      .footer .address {
+    .footer__adrress a{
+      color: #FFFFFF; 
+     }
+     
+     .footer__mail a,
+     .footer__tel a {
+      color: rgba(255, 255, 255, 0.6);
+     }
+    
+    .footer .link {
       font-family: 'Roboto', sans-serif;
-      font-weight: 500;
+      font-weight: 400;
       font-size: 14px;
       line-height: 1.714;
       letter-spacing: 0.03em;
-       /* color: rgba(255, 255, 255, 0.6);*/
+      
       }
-    .footer__adrress a{
-     /* color: #FFFFFF;  */
-    }
-    .footer .container{
-      /* background: #188CE8; */
+    
+    .footer {
+      background: #2F303A;;
       padding-bottom: 60px;
       padding-top: 60px;
     }
     .footer .logo {
       margin-bottom: 20px;
-      /* color: #ffffff; */
+      color: #ffffff;
     }
     .footer .address {
       display: flex;
       flex-direction: column;
     }
-    .footer__mail{ 
-      margin-top: 9px;
+    .footer .item:not(:last-child) {
       margin-bottom: 9px;
     }
        /* -----------------------Catalog-------------- */
@@ -356,7 +384,7 @@
     }
     .catalog__desc {
       font-family: 'Roboto', sans-serif;
-      font-weight: 500;
+      font-weight: 400;
       font-size: 16px;
       line-height: 1.875;
       letter-spacing: 0.03em;
