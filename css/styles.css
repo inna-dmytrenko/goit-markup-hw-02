@@ -278,8 +278,8 @@
       margin-right: 30px;
     }
     .team__subtitle {
-      margin-top: 30px;
-      margin-bottom: 10px;
+      padding-top: 30px;
+      padding-bottom: 10px;
     }
     .team__desc {
       font-family: 'Roboto', sans-serif;
